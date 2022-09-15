@@ -1,40 +1,36 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace GarbageCollectorDemo
 {
-    class GCTest
-    {
-        static int numOfThis = 0;
-        public static int maxNumOfThis = 0;
-        public GCTest()
-        {
-            numOfThis++;
-            Console.WriteLine(GCTest.numOfThis);
-            if (numOfThis > maxNumOfThis)
-            {
-                maxNumOfThis = numOfThis;
-            }
-        }
-
-        ~GCTest()
-        {
-            numOfThis--;
-        }
-    }
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            for (int i = 0; i < 500000; i++)
+            while (true)
             {
-                new GCTest();
+                new InstanceCounter();
             }
-            //while (true)
+            //TaskFactory f = new TaskFactory();
+            //f.StartNew(() =>
             //{
-            //    new GCTest();
-            //}
-            Console.WriteLine("The garbage collector started at object #" + GCTest.maxNumOfThis);
+            //    while (true)
+            //    {
+            //        new InstanceCounter();
+            //    }
+            //});
+            //f.StartNew(() =>
+            //{
+            //    while (true)
+            //    {
+            //        new InstanceCounter();
+            //    }
+            //});
+
+            Console.ReadLine();
         }
     }
 }
