@@ -7,3 +7,5 @@
 ## Egyéb: 
     -A MAUI telepítésével gondok akadtak, ezt otthon rendezem
     -Tominak távoli asztalt ki kell próbálni
+
+## Update: MAUI-t sikeresen telepítettem, csak frissíteni kellett a Visual Studio-t. Következő órán el tudunk kezdeni fejleszteni!
