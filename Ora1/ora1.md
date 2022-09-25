@@ -1,3 +1,3 @@
-##1. óra
+## 1. óra
 
 Garbage collector demo program
