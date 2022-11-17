@@ -16,3 +16,6 @@
   - Mindig új sorba
   - Nagybetűvel kezdjük, ponttal fejezzük be
   - Komment kezdete után szóköz
+
+# Órai feladat linkje: [link](https://github.com/Etereke/Ora10)
+- A megoldás még nem működik! Nem jó a deszerializáció.
