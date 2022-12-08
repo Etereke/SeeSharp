@@ -1,0 +1,1 @@
+## Szemétgyűjtés demonstrálása C# programmal
